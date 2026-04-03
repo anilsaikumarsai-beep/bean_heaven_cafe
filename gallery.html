@@ -4,15 +4,19 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="description" content="Browse the Bean Haven gallery – our café, food, drinks, and atmosphere."/>
+  <link rel="icon" href="images/logo.jpg" type="image/jpeg">
   <title>Gallery – Bean Haven Café</title>
   <link rel="stylesheet" href="css/styles.css"/>
 </head>
 <body>
 
-  <header class="navbar">
+ <header class="navbar">
     <div class="container nav-inner">
-      <a href="index.html" class="logo">☕ Bean Haven</a>
-      <button class="hamburger" id="hamburger">&#9776;</button>
+    <a href="index.html" class="logo">
+        <img src="images/logo.jpg" alt="Bean Haven Café logo featuring a coffee bean with golden wings and a halo, symbolizing quality and comfort in a warm, welcoming brown color palette" width="50" height="50">
+        <span>Bean Haven</span>
+    </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">&#9776;</button>
       <nav class="nav-links" id="nav-links">
         <a href="index.html">Home</a>
         <a href="menu.html">Menu</a>
@@ -22,7 +26,6 @@
       </nav>
     </div>
   </header>
-
   <section class="page-hero">
     <h1>Gallery</h1>
     <p>A peek inside Bean Haven.</p>
@@ -30,16 +33,37 @@
 
   <section class="gallery-page section">
     <div class="container">
-      <div class="gallery-grid">
-        <div class="gallery-item" style="background:#d4a574;" title="Our signature latte art">☕</div>
-        <div class="gallery-item" style="background:#8fbc8f;" title="Fresh avocado toast">🥑</div>
-        <div class="gallery-item" style="background:#c8a882;" title="Morning pastries">🧁</div>
-        <div class="gallery-item" style="background:#b5937a;" title="Cozy interior seating">🪑</div>
-        <div class="gallery-item" style="background:#a0c0a0;" title="Our garden terrace">🌿</div>
-        <div class="gallery-item" style="background:#e8d5b7;" title="Brunch spread">🍳</div>
-        <div class="gallery-item" style="background:#d4a574;" title="Cold brew bar">🧊</div>
-        <div class="gallery-item" style="background:#c4b49e;" title="Team at work">👨‍🍳</div>
-        <div class="gallery-item" style="background:#9eb89e;" title="Weekend specials">🌸</div>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="images/latte-art.jpg" alt="Our signature latte art" title="Our signature latte art">
+      </div>
+      <div class="gallery-item">
+        <img src="images/Avocado-Toast .jpg" alt="Fresh avocado toast" title="Fresh avocado toast">
+      </div>
+      <div class="gallery-item">
+        <img src="images/Pastry- Bliss.jpg" alt="Morning pastries" title="Morning pastries">
+      </div>
+      <div class="gallery-item">
+        <img src="images/interior.jpg" alt="Cozy interior seating" title="Cozy interior seating">
+      </div>
+      <div class="gallery-item">
+        <img src="images/garden.jpg" alt="Our garden terrace" title="Our garden terrace">
+      </div>
+      <div class="gallery-item">
+        <img src="images/brunch.jpg" alt="Brunch spread" title="Brunch spread">
+      </div>
+      <div class="gallery-item">
+        <img src="images/cold-brew-bar.jpg" alt="Cold brew bar" title="Cold brew bar">
+      </div>
+      <div class="gallery-item">
+        <img src="images/team-at-work.jpg" alt="Team at work" title="Team at work">
+      </div>
+      <div class="gallery-item">
+        <img src="images/weekend.jpg" alt="Weekend specials" title="Weekend specials">
+      </div>
+   
+  </section>
+
   <footer class="footer">
     <div class="container footer-inner">
       <p>© 2025 Bean Haven Café. All rights reserved.</p>
