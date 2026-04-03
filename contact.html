@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Contact Bean Haven or reserve a table – we'd love to hear from you."/>
+  <title>Contact – Bean Haven Café</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">☕ Bean Haven</a>
+      <button class="hamburger" id="hamburger">&#9776;</button>
+      <nav class="nav-links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <h1>Contact & Reservations</h1>
+    <p>We'd love to hear from you. Stop by or send us a message!</p>
+  </section>
+
+  <section class="contact section">
+    <div class="container contact-inner">
+
+      <div class="contact-info">
+        <h2>Visit Us</h2>
+        <p>📍 123 Brew Street, Coffee District, NY 10001</p>
+        <p>📞 (212) 555-0198</p>
+        <p>✉️ hello@beanhaven.com</p>
+        <h2 style="margin-top:1.5rem;">Opening Hours</h2>
+        <p>Monday – Friday: 7:00am – 9:00pm</p>
+        <p>Saturday – Sunday: 8:00am – 10:00pm</p>
+      </div>
+
+      <div class="contact-form-box">
+        <h2>Reserve a Table / Send a Message</h2>
+        <form id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Doe" required/>
+            <span class="error-msg" id="name-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="jane@example.com" required/>
+            <span class="error-msg" id="email-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="date">Preferred Date (optional)</label>
+            <input type="date" id="date" name="date"/>
+          </div>
+          <div class="form-group">
+            <label for="guests">Number of Guests</label>
+            <select id="guests" name="guests">
+              <option value="">Select</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3–4</option>
+              <option>5+</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us about your visit or any special requests..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;">Send Message</button>
+          <div class="success-msg" id="success-msg">✅ Thank you! We'll get back to you soon.</div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2025 Bean Haven Café. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
